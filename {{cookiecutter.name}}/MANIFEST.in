@@ -1,0 +1,8 @@
+
+# MaterializeCSS static files
+include {{cookiecutter.name}}/html/static/css/*
+include {{cookiecutter.name}}/html/static/js/*
+include {{cookiecutter.name}}/html/static/fonts/roboto/*
+
+# Templates
+include {{cookiecutter.name}}/html/templates/*
