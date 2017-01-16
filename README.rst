@@ -32,6 +32,9 @@ This will generate the following structure (let's say the ``name`` attribute is 
       - templates
         - template.html  # the base template
         - index.html    # demo greetings message to be desplayed at "/"
+ 
+ 
+By default, it assumes that all the templates will be in the templates directory. If you make some restructuring in the templates and/or static directories, you have to update the MANIFEST.in file to inlclude the extra files properly.        
         
 Enjoy :)
     
