@@ -1,6 +1,7 @@
 {
-    "name": "Microservice name",
+    "name": "microservice_name",
     "version": "0.0.1",
     "author": "Your name",
-    "short_description": "A microservice"
+    "short_description": "A microservice",
+    "theme": ["materializecss", "bootstrap"]
 }
