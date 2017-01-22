@@ -4,6 +4,8 @@ import urllib.request
 CSS_THEME = '{{cookiecutter.theme}}'
 PROJECT_DIRECTORY = os.path.realpath(os.path.curdir)
 
+JQUERY_311 = ("js", "https://code.jquery.com/jquery-3.1.1.min.js")
+
 required_files = {
     "materializecss": [
         ("css", "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css"),
@@ -14,8 +16,13 @@ required_files = {
     "bootstrap": [
         ("css", "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"),
         ("js", "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"),
-        ("js", "https://code.jquery.com/jquery-3.1.1.min.js"),
+        JQUERY_311,
         ("fonts", "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff2")
+    ],
+    "semantic_ui": [
+        ("css", "https://raw.githubusercontent.com/Semantic-Org/Semantic-UI-CSS/master/semantic.min.css"),
+        ("js", "https://raw.githubusercontent.com/Semantic-Org/Semantic-UI-CSS/master/semantic.min.js"),
+        JQUERY_311
     ]
 }
 

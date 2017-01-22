@@ -3,5 +3,5 @@
     "version": "0.0.1",
     "author": "Your name",
     "short_description": "A microservice",
-    "theme": ["materializecss", "bootstrap"]
+    "theme": ["materializecss", "bootstrap", "semantic_ui"]
 }
