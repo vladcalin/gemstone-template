@@ -1,5 +1,5 @@
 
-# MaterializeCSS static files
+# Include static files
 include {{cookiecutter.name}}/html/static/css/*
 include {{cookiecutter.name}}/html/static/js/*
 include {{cookiecutter.name}}/html/static/fonts/roboto/*

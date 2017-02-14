@@ -13,7 +13,7 @@ setup(
 
     entry_points={
         "console_scripts": [
-            "{{cookiecutter.name}} = {{cookiecutter.name}}.cli:cli"
+            "{{cookiecutter.name}} = {{cookiecutter.name}}.service:start_service"
         ]
     }
 )
